@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblioteca Virtual</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="./img/book logo site.jpg">
+</head>
+
+<body>
+
+<div class="logo">
+  <img src="./img/book icon site.jpg" alt="Imagem Destaque">
+</div>
+
+<nav>
+  <a href="#">Início</a>
+  <a href="#">Sobre</a>
+  <a href="#">Contato</a>
+</nav>
+
+<div class="container">
+  <div class="categoria-btns">
+    <button onclick="filtrarCategoria('todos')">Todos</button>
+    <button onclick="filtrarCategoria('ficcao')">Ficção</button>
+    <button onclick="filtrarCategoria('dark')">Dark</button>
+    <button onclick="filtrarCategoria('romance')">Romance</button>
+    <button onclick="filtrarCategoria('suspense')">Suspense</button>
+    <button onclick="filtrarCategoria('fantasia')">Fantasia</button>
+    <!-- Adicione mais botões de categorias conforme necessário -->
+  </div>
+
+  <div class="livro" data-categoria="ficcao"> 
+      <img src="./img/ficcao.jpg" alt="Livro de Ficção" class="imgbook1">
+              <div class="livro-info">
+                <h2>Cidade Dos Ossos</h2>
+                <p>Autor: Cassandra Clare</p>
+                <p>Número de Páginas: 462</p>
+                <p>Categoria: Ficção</p>
+              </div>
+          <div class="sinopse">
+            <p>Sinopse: "
+              Descubra o universo dos Caçadores de Sombras neste primeiro volume da aclamada série Os Instrumentos Mortais e ""prepare-se para se viciar"" ( Entertainment Weekly )
+              
+              ""A nova rainha da fantasia"" - The Wall Street Journal
+              
+              Clary Fray, 15 anos, decide passar a noite em uma boate em Nova York. O maior de seus problemas provavelmente seria lidar com o truculento segurança da porta, certo? Errado. Clary testemunha um crime, e não um crime qualquer: um assassinato cometido por três adolescentes cobertos por enigmáticas tatuagens, brandindo armas esquisitas. Para completar, o corpo da vítima desaparece no ar.
+              
+              Clary quer ligar para a polícia; quer gritar; quer chamar seu amigo, Simon, que ficou na boate enquanto ela teve a infeliz ideia de perseguir o menino bonitinho de cabelo azul... Mas como explicar a eles que ninguém mais na rua enxerga os assassinos, apenas ela? Como provar que houve um crime se não há rastro algum do sangue do garoto morto - aliás, era mesmo um menino? ...<span class="leia-mais" onclick="toggleSinopse(this)">Ler mais</span></p>
+
+              <p class="escondido">
+                Mas ela nem tem tempo de tomar uma decisão; logo os assassinos se apresentam para a estranha mundana que não deveria vê-los, mas vê. Jace, Alec e Isabelle são Caçadores de Sombras, guerreiros cuja missão é proteger o mundo que conhecemos de demônios e outras criaturas. Vampiros que saem da linha, lobisomens descontrolados, monstros cheios de veneno? É por aí mesmo. E depois desse primeiro contato com o Mundo de Sombras, e com Jace - um Caçador que tem a aparência de um anjo, mas a língua tão afiada quanto Lúcifer -, a vida de Clary nunca mais será a mesma. Mesmo.
+                
+                Sombrio, engraçado e sexy, Cidade dos Ossos é o primeiro volume da série Os Instrumentos Mortais , de Cassandra Clare, que virou um verdadeiro fenômeno mundial e vendeu mais de 50 milhões de exemplares.
+                
+                "</p>
+          </div> 
+  </div>
+
+  <div class="livro" data-categoria="dark"> 
+    <img src="./img/dark.jpg" alt="Livro Dark" class="imgbook1">
+            <div class="livro-info">
+              <h2>Incipit</h2>
+              <p>Autor:  Leonor Carvalho</p>
+              <p>Número de Páginas: 786</p>
+              <p>Categoria: Dark</p>
+            </div>
+        <div class="sinopse">
+          <p>Sinopse: "
+            Um Dark Romance com enemies to lovers, slow burn, segunda chance e found family. Agora em físico na editora Unicórnio Books!
+
+            Em apenas uma noite, o amor de Emília Gray mudou.
+
+            Dante Faulkner a traiu.
+
+            Ele a matou cruelmente, deixando seu coração em pedaços e a sua vida em ruínas.
+
+            Nada além de mentiras e uma dose perversa de ódio foi deixada pra garota perfeita que amou um garoto quebrado. Em silêncio. De forma proibida.
+
+            Se algum dia se amaram, agora nutrem
+            constantemente a vontade voraz de se tornarem o pesadelo um do outro. ... <span class="leia-mais" onclick="toggleSinopse(this)">Ler mais</span></p>
+
+            <p class="escondido">
+              No entanto, a crueldade do destino decide por ambos. Um acordo terá que ser feito. A violência, a repulsa e a vingança faz com que Emília assine um pacto com o diabo e nada além do fim sobrará para um deles.
+
+              A destruição chegará para os dois.
+
+              Mas, ainda assim, eles estão dispostos a lutar com a mesma intensidade com que se amaram há anos.
+
+              Leia os gatilhos inseridos no livro!
+              
+              "</p>
+        </div> 
+</div>
+
+<div class="livro" data-categoria="romance"> 
+  <img src="./img/romance.jpg" alt="Livro de Romance" class="imgbook1">
+          <div class="livro-info">
+            <h2>Eleanor & Grey</h2>
+            <p>Autor: Brittainy Cherry (Autor), Thalita Uba (Tradutor)</p>
+            <p>Número de Páginas: 406</p>
+            <p>Categoria: Romance</p>
+          </div>
+      <div class="sinopse">
+        <p>Sinopse: "
+          Greyson East marcou a vida de Eleanor desde o dia em que se conheceram. Mas depois de tanto tempo e tantas mágoas, eles ainda saberão como aproveitar sua segunda chance no amor e se conectar novamente? Eleanor & Grey é um livro sobre amizade, família, perdas e, acima de tudo, amor. Amor de todas as formas. “É impossível não amar as histórias criadas por Brittainy C. Cherry!” - Carina Rissi
+
+          Eleanor é uma adolescente introvertida que prefere a companhia de seus amados livros - e cardigãs com libélulas - a interagir socialmente, sobretudo com os colegas da escola. Quando a prima a arrasta para uma festa, Ellie se surpreende ao ser abordada pelo astro do time de basquete; afinal de contas os dois não têm absolutamente nada em comum. Ou pelo menos era o que ela pensava. Com o tempo, a amizade entre eles surge de forma natural; uma ligação tão forte, tão intensa, que logo se transforma em outro sentimento. Algo que Ellie nunca havia experimentado. ...<span class="leia-mais" onclick="toggleSinopse(this)">Ler mais</span></p>
+
+          <p class="escondido">
+            Mas aquele sonho se transforma em pesadelo de uma hora para outra. Uma terrível notícia faz o mundo de Eleanor desabar. A única coisa ainda de pé é Greyson, incansavelmente ao seu lado. Mas nem sempre a força do amor é o bastante para deter o curso da vida: Ellie e Grey se veem forçados a se separar.
+
+            Anos mais tarde, Eleanor pensa ter deixado seu primeiro amor no passado, mas o caminho dos dois volta a se cruzar. Só que, dessa vez, quem precisa de ajuda é Greyson. O problema é que ele já não é mais o garoto doce de suas lembranças. Grey se tornou um homem frio, insensível, e o elo especial que um dia partilharam parece ter se rompido para sempre.
+
+            Eleanor & Grey é um delicioso romance de tirar o fôlego que agradará fãs de Jojo Moyes, John Green, Nicholas Sparks, Carina Rissi, Shophie Kinsella e Marian Keyes. É impossível não se apaixonar por essa história de amor e amizade escrita pela autora que já encantou incontáveis fãs com seus livros.
+            "</p>
+      </div> 
+</div>
+
+<div class="livro" data-categoria="suspense"> 
+  <img src="./img/suspense.jpg" alt="Livro de Suspense" class="imgbook1">
+          <div class="livro-info">
+            <h2>Jardim Das Borboletas</h2>
+            <p>Autor: Dot Hutchison</p>
+            <p>Número de Páginas: 304</p>
+            <p>Categoria: Suspense</p>
+          </div>
+      <div class="sinopse">
+        <p>Sinopse: "
+          Quando a beleza das borboletas encontra os horrores de uma mente doentia
+
+          Um thriller arrebatador, fenômeno no mundo inteiro
+
+          Perto de uma mansão isolada, existia um maravilhoso jardim. Nele, cresciam flores exuberantes, árvores frondosas... e uma coleção de preciosas 'borboletas': jovens mulheres, sequestradas e mantidas em cativeiro por um homem brutal e obsessivo, conhecido apenas como Jardineiro. Cada uma delas passa a ser identificada pelo nome de uma espécie de borboleta, tendo, então, a pele marcada com um complexo desenho correspondente. ...<span class="leia-mais" onclick="toggleSinopse(this)">Ler mais</span></p>
+
+          <p class="escondido">
+            Quando o jardim é finalmente descoberto, uma das sobreviventes é levada às autoridades, a fim de prestar seu depoimento. A tarefa de juntar as peças desse complexo quebra-cabeça cabe aos agentes do fbi Victor Hanoverian e Brandon Eddinson, nesse que se tornará o mais chocante e perturbador caso de suas vidas. Mas Maya, a enigmática garota responsável por contar essa história, não parece disposta a esclarecer todos os sórdidos detalhes de sua experiência. Em meio a velhos ressentimentos, novos traumas e o terrível relato sobre um homem obcecado pela beleza, os agentes ficam com a sensação de que ela esconde algum grande segredo.            
+            "</p>
+      </div> 
+</div>
+
+<div class="livro" data-categoria="fantasia"> 
+  <img src="./img/fantasia.jpg" alt="Livro de Fantasia" class="imgbook1">
+          <div class="livro-info">
+            <h2>Corte de Espinhos e Rosas</h2>
+            <p>Autor:  Sarah J. Maas (Autor), Mariana Kohnert (Tradutor)</p>
+            <p>Número de Páginas: 434</p>
+            <p>Categoria: Fantasia</p>
+          </div>
+      <div class="sinopse">
+        <p>Sinopse: "
+          Ela roubou uma vida. Agora deve pagar com o coração. Em Corte de espinhos e rosas, livro que da início a uma das séries mais queridas pelo público, acompanhe as aventuras de Feyre pelo perigoso e deslumbrante mundo das fadas.  Sarah J. Maas é uma verdadeira estrela: após apenas uma semana de vendas, a série Corte de Espinhos e Rosas estreou em segundo lugar na lista do New York Times . Ela também é autora da série Trono de Vidro , que já teve mais de 1 milhão de exemplares vendidos.
+
+          Num mundo dividido uma muralha mágica separa duas espécies. De um lado, os feéricos vivem dentro de suas fronteiras cheias de beleza e mistério; do outro, os humanos possuem apenas medo, desconfiança e dificuldades.
+
+          Feyre, filha de um casal de mercadores humanos e falidos, se torna caçadora para sustentar a família. Dura como as flechas que carrega, letal como sua pontaria, ela abandona as fantasias de garota e as troca pela árdua vida nas florestas ao redor de sua aldeia. ...<span class="leia-mais" onclick="toggleSinopse(this)">Ler mais</span></p>
+
+          <p class="escondido">
+            Sua única alegria é observar as cores e sonhar em capturá-las. Mas, na floresta, coberta de neve tudo é branco e árido; como o ódio pelos feéricos que carrega no coração; Como as telas que não pode comprar ou colorir. Até que um enorme lobo cruza seu caminho... Sem hesitar, Feyre dispara... uma flecha. Um ato de rebelião.
+
+            Após matar o lobo, uma criatura bestial surge exigindo uma reparação. Arrastada para além do muro, para uma terra mágica e traiçoeira - que ela só conhece por meio de lendas -, a jovem descobre que seu captor não é um animal, mas Tamlin, Grão Senhor da Terra Primaveril. Um feérico com um segredo, escondido sob uma máscara.  Ela descobre ainda que o então animal que havia assassinado era, na verdade, uma criatura mágica, uma fada zoomórfica transformada em lobo.
+
+            À medida que ela descobre mais sobre este mundo onde a magia impera, seus sentimentos por Tamlin passam da mais pura hostilidade até uma paixão avassaladora. Enquanto isso, uma sinistra e antiga sombra avança sobre o mund­­o das fadas e Feyre deve provar seu amor para detê-la ou Tamlin e seu povo estarão condenados.
+
+            Corte de espinhos e rosas é um livro de fantasia de tirar o fôlego. Memorável em todos os aspectos, com personagens complexos, enredo rico e um magnífico mundo de fantasia combinados impecavelmente para criar um romance épico.
+            
+            "</p>
+      </div> 
+</div>
+  <!-- Adicione mais livros conforme necessário -->
+</div>
+
+<script>
+  function filtrarCategoria(categoria) {
+    const livros = document.querySelectorAll('.livro');
+    livros.forEach(livro => {
+      const livroCategoria = livro.getAttribute('data-categoria');
+      if (categoria === 'todos' || livroCategoria === categoria) {
+        livro.style.display = 'block';
+      } else {
+        livro.style.display = 'none';
+      }
+    });
+  }
+
+  function toggleSinopse(elemento) {
+    const sinopseCompleta = elemento.parentNode.nextElementSibling;
+    sinopseCompleta.classList.toggle('escondido');
+    if (sinopseCompleta.classList.contains('escondido')) {
+      elemento.innerText = 'Ler mais';
+    } else {
+      elemento.innerText = 'Ler menos';
+    }
+  }
+</script>
+
+<footer class="footer">
+  <p>Biblioteca da Sayuu - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
